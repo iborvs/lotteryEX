@@ -1,0 +1,89 @@
+body{
+    font-family: "FOT-テロップ明朝 Pro D","Average Sans",sans-serif;
+    background-image: -webkit-linear-gradient(left, #88aeb7 0%,#b8d0d3 5%,#cfe8eb 20%,#d2d4cf 80%,#c7cebd 95%,#afc1c5 100%);
+}
+.draw::before{
+    -webkit-border-image: url(http://gbf.game-a.mbga.jp/assets_en/img/sp/gacha/bg_gold.png?1511244037) 346 0 74 stretch round;
+    -webkit-border-image: url(http://gbf.game-a.mbga.jp/assets_en/img/sp/gacha/bg_gold.png?1511244037) 346 0 74 stretch round;
+    border-image: url(http://gbf.game-a.mbga.jp/assets_en/img/sp/gacha/bg_gold.png?1511244037) 346 0 74 stretch fill round;
+    border-style: solid;
+    margin: auto;
+}
+.draw::before {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    border-width: 173px 0 37px;
+    content: "";
+    z-index: -1;
+    width: 500px;
+}
+.draw .draw-title {
+    text-align: center;
+}
+.draw{
+    font-size: 14px;
+    margin: auto;
+    width: 500px;
+    height:500px;
+}
+.draw-buttons{
+    margin:auto;
+}
+.feature-pic{
+    margin:30px;
+}
+.img-feature {
+    width: 100%;
+    margin: 0 auto;
+}
+.draw-title{
+    margin:10px;
+    font-size: 18px;
+    color: #f2eee2;
+    text-shadow: 0 0 1px #6f4813, 0 0 1px #6f4813, 0 0 1px #6f4813, 0 0 1px #6f4813, 0 0 2px #6f4813, 0 0 2px #6f4813, 0 0 2px #6f4813, 0 0 2px #6f4813;
+}
+.cost-text{
+    font-size: 14px;
+    color: white;
+    display: block;
+    position: absolute;
+    width:250px;
+    background-image: url(../textback.jpg);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 40px;
+    color: #f2eee2;
+    text-shadow: 0 0 1px #044453, 0 0 1px #044453, 0 0 1px #044453, 0 0 1px #044453, 0 0 2px #044453, 0 0 2px #044453, 0 0 2px #044453, 0 0 2px #044453;
+    padding: 5px 5px 5px 10px;
+    text-align: left;
+}
+.btn-draw{
+    width: 200px;
+    float: right;
+    padding-right: 20px;
+}
+#btn-crystal-draw{
+    float:right;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+#text-crystal-draw{
+    background-image: url(../crystal.jpg);
+}
+#ten-part-btn{
+    float:right;
+    margin-right: 20px;
+    display:block
+}
+.gacha-content{
+    margin:30px;
+}
+.txt-attention {
+    padding: 0 30px;
+    line-height: 1.2;
+    color: #645b53;
+}

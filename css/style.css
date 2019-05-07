@@ -1,0 +1,395 @@
+@charset "UTF-8";
+/* line 5, G:/sass/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+body,.goldContent, .goldEggsDiv,.centerPage_Img{
+  overflow: hidden;
+}
+a img {
+  border: none;
+}
+body .loadingDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  z-index: 111111;
+}
+body .loadingDiv p {
+  color: #aaa;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  height: 30px;
+  text-align: center;
+  font-family: "Microsoft YaHei";
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-background-clip: text;
+  /*设置背景颜色应用于text的位版本上*/
+  -webkit-text-fill-color: transparent;
+  /*将文字的颜色设置为透明*/
+  background-color: #aaa;
+  /*设置文字的背景色*/
+  background-image: -webkit-linear-gradient(-45deg, rgba(55, 55, 55, 0.6) 30%, #ccc 50%, rgba(55, 55, 55, 0.6) 70%);
+  /*设置文字的线性渐变颜色分布*/
+  background-blend-mode: hard-light;
+  /*css混合模式中的强光模式*/
+  background-size: 200%;
+  -webkit-animation: shine 4s infinite;
+}
+@-webkit-keyframes shine {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: 600px;
+  }
+}
+@-moz-keyframes shine {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: 600px;
+  }
+}
+@keyframes shine {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: 600px;
+  }
+}
+body .loadingDiv img {
+  bottom: 10%;
+  left: 51%;
+  -moz-transform: translate(-50%, 1em);
+  -ms-transform: translate(-50%, 1em);
+  -webkit-transform: translate(-50%, 1em);
+  transform: translate(-50%, 1em);
+  position: absolute;
+  width: 300px;
+}
+body .goldContent {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+body .goldContent .goldEggsDiv {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+body .goldContent .goldEggsDiv .centerPage_Img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+/*开始蛋的css*/
+body .goldContent .goldEggsDiv .list_EggsDiv {
+  position: absolute;
+  overflow: hidden;
+  top: 30%;
+  left: 15%;
+  width: 70%;
+  height: 50%;
+}
+body .goldContent .goldEggsDiv .list_EggsDiv div ul {
+  position: absolute;
+  width: 100%;
+  float: left;
+}
+body .goldContent .goldEggsDiv .list_EggsDiv div ul.jinDanUl1 {
+  left: 100%;
+}
+body .goldContent .goldEggsDiv .list_EggsDiv div ul li {
+  -webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+  float: left;
+  position: relative;
+  width: 33.3%;
+  height: 100%;
+  cursor: pointer;
+}
+body .goldContent .goldEggsDiv .list_EggsDiv div ul li img {
+  width: 100%;
+  height: 100%;
+}
+body .goldContent .list_Content {
+  width: 100%;
+  height: auto;
+  background: #CC1A1A;
+  width: 90%;
+  padding-bottom: 3%;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+/* line 4, ../sass/model/_alert.scss */
+.bg-mask {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10000;
+}
+
+/* line 12, ../sass/model/_alert.scss */
+.chouJiang {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10001;
+  width: 360px;
+  height: 300px;
+}
+/* line 24, ../sass/model/_alert.scss */
+.chouJiang .imgDan {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  width: 48%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10001;
+}
+/* line 33, ../sass/model/_alert.scss */
+.chouJiang .caiDai {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  width: 100px;
+  z-index: 10001;
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* line 42, ../sass/model/_alert.scss */
+.chouJiang .chouJiangTishi {
+  position: absolute;
+  bottom: 10%;
+  width: 100%;
+  text-align: center;
+  font-family: "Microsoft YaHei";
+  font-size: 16px;
+  background-image: -webkit-linear-gradient(#F9DBA1 50%, #D0AB71 100%);
+  /* Opera 11.1 - 12.0 */
+  background: -o-linear-gradient(#F9DBA1 50%, #D0AB71 100%);
+  /* Firefox 3.6 - 15 */
+  background: -moz-linear-gradient(#F9DBA1 50%, #D0AB71 100%);
+  /* 标准的语法 */
+  background: linear-gradient(#f9dba1 50%, #d0ab71 100%);
+  -webkit-background-clip: text;
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+}
+/* line 62, ../sass/model/_alert.scss */
+.chouJiang .imgChuiZi {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  width: 30%;
+  z-index: 10002;
+  -moz-transform-origin: bottom right;
+  -webkit-transform-origin: bottom right;
+  transform-origin: bottom 100%;
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+  -moz-animation: chuizi 1.5s ease 3;
+  -webkit-animation: chuizi 1.5s ease 3;
+  animation: chuizi 1.5s ease 3;
+}
+@keyframes chuizi {
+  0% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  30% {
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+  }
+  100% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+}
+@-webkit-keyframes chuizi {
+  0% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  30% {
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+  }
+  100% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+}
+@-moz-keyframes chuizi {
+  0% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+  30% {
+    -moz-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+    -webkit-transform: rotate(-25deg);
+    transform: rotate(-25deg);
+  }
+  100% {
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+}
+/*奖品展示*/
+.jiangPinResult {
+  visibility: hidden;
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 10003;
+  width: 360px;
+  height: 300px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.4);
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.jiangPinResult.active {
+  top: 50%;
+  visibility: visible;
+  width: 360px;
+  height: 300px;
+}
+.jiangPinResult .gongxi {
+  top: -30%;
+  height: 200px;
+  position: absolute;
+  left: 52%;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.jiangPinResult p {
+  top: 18%;
+  width: 100%;
+  position: absolute;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Microsoft YaHei";
+  text-align: center;
+}
+.jiangPinResult .imgJiangPin {
+  top: 20%;
+  position: absolute;
+  height: 180px;
+  left: 52%;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.jiangPinResult .btn_Get {
+  bottom: 20px;
+  position: absolute;
+  height: 40px;
+  width: 80%;
+  left: 50%;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border: none;
+  background: #33D92A;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  cursor: pointer;
+  outline: none;
+}
+.jiangPinResult .btn_Get:hover {
+  background: #24A91D;
+}
+.jiangPinResult .colseJiangPin {
+  width: 28px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}

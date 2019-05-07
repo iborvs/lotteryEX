@@ -1,0 +1,200 @@
+body {margin:0 auto;overflow:hidden;}
+
+.header{
+	margin:0 auto;
+	background-color:#000;
+	position:relative;
+}
+.header canvas {
+	width:100%;height:auto/*默认全屏显示 可自己设置高度640px*/;
+	display:inline-block;vertical-align:baseline
+	position:absolute;
+	z-index:-1;
+}
+.header .canvaszz{  /*用来解决视频右键菜单，用于视频上面的遮罩层*/
+	width:100%;
+	background-image: url(../images/in_top_bj.jpg);
+	height:640px;
+	position:absolute;
+	z-index:10;
+	filter:alpha(opacity=40);
+	-moz-opacity:0.4;
+	-khtml-opacity: 0.4;
+	opacity: 0.4;
+}
+
+.header .row{
+	width: 390px;
+	height: 390px;
+	border: solid 1px transparent;
+	background-color:rgba(51,153,255,0.5);
+	position: absolute;
+	left: 50%;
+	top:43%;
+	margin:-160px 0 0 -195px;
+	text-align: center;
+}
+.header .row1{
+	width: 420px;
+	height: 450px;
+	border: solid 1px transparent;
+	background-color:rgba(51,153,255,0.5);
+	position: absolute;
+	left: 49%;
+	top:42.5%;
+	margin:-160px 0 0 -195px;
+	text-align: center;
+}
+.header .nav{
+	width:auto;
+	height:auto;
+	position:absolute;
+	z-index:30;
+	top:5%;
+	left: 50%;
+	margin-left: -140px;
+}
+.header .nav1{
+	width:auto;
+	height:auto;
+	position:absolute;
+	z-index:30;
+	top:5%;
+	left: 50%;
+	margin-left: -140px;
+}
+.header .nav1 a.gv {
+	text-decoration:none;
+	background:url(../images/nav_gv.png) repeat 0px 0px;
+	width: 130px;
+	height: 43px;
+	display: block;
+	text-align:center;		/*水平居中*/
+	line-height:43px;  /*上下居中*/
+	cursor:pointer;
+	float:left;/*左浮动*/
+	margin:8px 2px 8px 2px;
+	font:18px/43px 'microsoft yahei'; color:#ffffff;
+}
+.header .nav1 a.gv span {
+	display: none;
+
+}
+.header .nav1 a.gv:hover {
+	background: url(../images/nav_gv.png) repeat 0px -43px;
+	color:#1d7eb8;
+	-webkit-box-shadow: 0 0 6px #1d7eb8;
+	transition-duration: 0.5s;
+}
+
+.header .nav a.gv {
+	text-decoration:none;
+	background:url(../images/nav_gv.png) repeat 0px 0px;
+	width: 130px;
+	height: 43px;
+	display: block;
+	text-align:center;		/*水平居中*/
+	line-height:43px;  /*上下居中*/
+	cursor:pointer;
+	float:left;/*左浮动*/
+	margin:8px 2px 8px 2px;
+	font:18px/43px 'microsoft yahei'; color:#ffffff;
+}
+.header .nav a.gv span {
+	display: none;
+
+}
+.header .nav a.gv:hover {
+	background: url(../images/nav_gv.png) repeat 0px -43px;
+	color:#1d7eb8;
+	-webkit-box-shadow: 0 0 6px #1d7eb8;
+	transition-duration: 0.5s;
+}
+
+.text{
+	width: 220px;
+	height: 28px;
+	outline: none;
+	display: inline-block;
+	font: 14px "microsoft yahei",Helvetica,Tahoma,Arial,"Microsoft jhengHei";
+	margin-left: -95px;
+	border: none;
+	background: none;
+	line-height: 46px;
+}
+.u_user{
+	width: 25px;
+	height: 25px;
+	background: url(../images/login_ico.png);
+	background-position:  -125px 0;
+	position: absolute;
+	margin: 8px -125px;
+}
+.us_uer{
+	width: 25px;
+	height: 25px;
+	background-image: url(../images/login_ico.png);
+	background-position: -125px -34px;
+	position: absolute;
+	margin: 8px -125px;
+}
+.usu_er
+{
+	width: 25px;
+	height: 25px;
+	background-image: url(../images/login_ico.png);
+	background-position: -84px 0;
+	position: absolute;
+	margin: 8px -125px;
+}
+.input_outer{
+	height: 40px;
+	padding: 0 5px;
+	margin-bottom: 1px;
+	border-radius: 50px;
+	position: relative;
+	border: rgba(0,204,255,0.3) 2px solid !important;
+}
+.logo_box{
+	width: 270px;
+	height: 500px;
+	padding: 35px;
+	color: #EEE;
+	position: absolute;
+	left: 60%;
+	top:500%;
+	margin-left: -195px;
+	margin-top: -250px;
+}
+.logo_box1{
+	width: 270px;
+	height: 500px;
+	padding: 35px;
+	color: #EEE;
+	position: absolute;
+	left: 60%;
+	top:500%;
+	margin-left: -195px;
+	margin-top: -250px;
+}
+
+.btn waves-effect waves-light{
+	width:100px;
+	height:20px;
+	color:red;
+	margin-left: -50px;
+	margin-top: -20px;
+	left: 60%;
+	top:50%;
+}
+.home{
+	background-color:rgba(51,153,255,0);
+	height:55px;
+	width:82px;
+	float:center;"
+left: 80%;
+	top:670%;
+	position: absolute;
+	margin-left: 600px;
+	margin-top: -25px;
+}

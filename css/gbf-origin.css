@@ -1,0 +1,108 @@
+.pop-usual::before {
+    -webkit-border-image: url(../ui_pop.png) 106 0 124 stretch round;
+    -webkit-border-image: url(../ui_pop.png) 106 0 124 stretch round;
+    border-image: url(../ui_pop.png) 106 0 124 fill stretch round;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    border-width: 53px 0 62px;
+    border-style: solid;
+    content: "";
+}
+.pop-usual.pop-show {
+    -webkit-transition: -webkit-transform 0.24s ease;
+    transition: transform 0.24s ease;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+.pop-usual {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    z-index: 150000;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    width: 320px;
+    min-height: 115px;
+    display: none;
+}
+.pop-usual .prt-popup-header, .pop-usual .prt-popup-header-sm {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 53px;
+    text-align: center;
+    color: #150f0f;
+    padding-top: 18px;
+}
+.pop-usual .prt-popup-body, .pop-usual .prt-popup-body-sm {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    width: 320px;
+}
+.pop-usual .txt-popup-body, .pop-usual .txt-popup-body-sm {
+    font-size: 12px;
+    padding: 10px 15px 5px;
+    text-align: center;
+    line-height: 1.2;
+}
+.btn-usual-text-cancel, .btn-usual-cancel, .btn-usual-close {
+    background: url(http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/button-sd6518a5d46.png) no-repeat 0 -1277px;
+    -webkit-background-size: 223px 2770px;
+    background-size: 223px 2770px;
+    width: 141px;
+    height: 36px;
+    display: inline-block;
+    padding-top: 10px;
+	margin-left:20px;
+}
+.btn-usual-text, .btn-usual-questlist, .btn-usual-eventtop, .btn-usual-storytop, .btn-usual-fate, .btn-usual-mypage, .btn-usual-ok, .btn-usual-present, .btn-usual-buy, .btn-usual-exchange, .btn-usual-extra, .btn-usual-itemlist, .btn-usual-enhance, .btn-usual-gacha, .btn-usual-use, .btn-usual-set, .btn-usual-remove, .btn-usual-remove-all, .btn-usual-party, .btn-usual-aquisition, .btn-usual-add-to-party, .btn-usual-vote, .prt-optional-infomation .btn-schedule, .pop-ceiling-help .btn-location-ceiling, .prt-ticket-lineup .lis-ticket .prt-ticket-obtain .btn-ticket-obtain {
+    display: block;
+    background: url(http://game-a.granbluefantasy.jp/assets_en/img/sp/ui/button-sd6518a5d46.png) no-repeat 0 -1388px;
+    -webkit-background-size: 223px 2770px;
+    background-size: 223px 2770px;
+    width: 141px;
+    height: 36px;
+    display: inline-block;
+    padding-top: 10px;
+}
+.pop-confirm-none .prt-button-box .prt-relation-button [class^="btn-s-"], .pop-confirm-none .prt-button-box .prt-relation-button [class^="btn-"]:not([class^="btn-s-"]), .btn-usual-text, .btn-usual-questlist, .btn-usual-eventtop, .btn-usual-storytop, .btn-usual-fate, .btn-usual-mypage, .btn-usual-ok, .btn-usual-present, .btn-usual-buy, .btn-usual-exchange, .btn-usual-extra, .btn-usual-itemlist, .btn-usual-enhance, .btn-usual-gacha, .btn-usual-use, .btn-usual-set, .btn-usual-remove, .btn-usual-remove-all, .btn-usual-party, .btn-usual-aquisition, .btn-usual-add-to-party, .btn-usual-vote, .prt-optional-infomation .btn-schedule, .pop-ceiling-help .btn-location-ceiling, .prt-ticket-lineup .lis-ticket .prt-ticket-obtain .btn-ticket-obtain {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #f2eee2;
+    text-shadow: 0 0 1px #253544, 0 0 1px #253544, 0 0 1px #253544, 0 0 1px #253544, 0 0 2px #253544, 0 0 2px #253544, 0 0 2px #253544, 0 0 2px #253544;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+}
+.btn-usual-ok::after {
+    content: "OK";
+}
+.btn-usual-cancel::after {
+    content: "Cancel";
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.btn-usual-cancel::after {
+    content: "Cancel";
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.btn-usual-cancel-small, .btn-usual-dismiss, .pop-help .prt-buttons-area .btn-help-close, .btn-usual-text-cancel, .btn-usual-cancel, .btn-usual-close {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #f2eee2;
+    text-shadow: 0 0 1px #532d0d, 0 0 1px #532d0d, 0 0 1px #532d0d, 0 0 1px #532d0d, 0 0 2px #532d0d, 0 0 2px #532d0d, 0 0 2px #532d0d, 0 0 2px #532d0d;
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+}
